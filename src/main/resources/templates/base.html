@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title !!!!!</title>
+
+    <!--===== Custom Stylesheet ====-->
+    <link href="additionals.css" rel="stylesheet">
+
+    <div th:fragment="footer">
+        <footer>copyright 2017</footer>
+    </div>
+
+</head>
+<body>
+
+<div class="centered" th:fragment="gohome">
+    <a class="btn btn-primary" href="/" role="button">Link to the Home Page</a>
+    <p></p>
+    <p></p>
+</div>
+
+<div th:fragment="navigation">
+    <a class="btn btn-secondary btn-lg btn-block" href="/available">See Available Rooms</a>
+    <a class="btn btn-secondary btn-lg btn-block" href="/rented">See Rented Rooms</a>
+    <a class="btn btn-secondary btn-lg btn-block" href="/addRoom">Add New Room</a>
+</div>
+
+
+
+
+
+</body>
+</html>
